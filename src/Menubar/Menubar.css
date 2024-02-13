@@ -1,0 +1,48 @@
+
+.menu-bar {
+   
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 54px;
+    gap: 50px;
+    border-bottom: 2px solid rgb(77, 206, 249);
+    background-color: white;
+    
+
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    color:black;
+    cursor: pointer;
+  }
+  
+  .tab .active {
+    background-color:rgb(77, 206, 249);
+    padding: 11px;
+    width: 100%;
+  }
+  .tabscontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding-right: 217px;
+    padding-top: 20px;
+}
+.txt{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding-right: 217px;
+    padding-top: 20px;
+
+}
+.content{
+  align-content: center;
+ 
+}

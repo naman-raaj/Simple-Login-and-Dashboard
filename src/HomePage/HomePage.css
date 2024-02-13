@@ -1,0 +1,133 @@
+.main2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    width: 100%;
+   padding-left: 230px;
+   padding-right:12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card
+{
+    border: 1px solid grey;
+    width: 20%;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 80px;
+}
+.innerdiv
+{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 10px 8px #8888;
+}
+
+.color-card1
+{
+    background-color: orange;
+    width: 48px;
+    height: 57px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+
+}
+.color-card2{
+    background-color:  rgba(25, 200, 240, 0.747);
+    width: 48px;
+    height: 57px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+
+}
+.color-card3{
+    background-color: red;
+    width: 48px;
+    height: 57px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+
+}
+.color-card4{
+    background-color:  rgba(25, 200, 240, 0.747);
+    width: 48px;
+    height: 57px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+.cards-header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    width: 50%;
+    height: 50%;
+}
+.tabs-div{
+    padding-top: 40px;
+
+}
+.nrf{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.btn3{
+    color: white;
+    background-color: rgba(25, 200, 240, 0.747);
+    border: none;
+    height: 30px;
+    border-radius:10px
+}
+.barnav{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.tabs{
+    width: 100%;
+    margin-top: 20px;
+}
+.btn3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
